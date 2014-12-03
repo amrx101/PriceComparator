@@ -386,6 +386,7 @@ sub update_link1()
 my ($num , $IB_lnk) =(@_);
 if($IB_lnk =~m/(.+?page=)\d+/)
 {
+  #print 'hello';
 return $1.$num."\n";
 }
 }
